@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/*! sassyjson - v1.1.8 - 2014-06-01 */
+/* >> Bootcamp >> */
+parseIntは 単位を取り除いて数値を返す {
+  ✔: Expected 12 to equal 12;
+  ✔: Expected 1 to equal 1;
+  ✔: Expected 100 to equal 100;
+  ✔: Expected -12 to equal -12;
+  Test: Passed;
+}
+
+calculateRemは pxをremに変換する {
+  ✔: Expected "1.2rem" to equal "1.2rem";
+  Test: Passed;
+}
+
+calculateRemは px以外ならflaseを返す {
+  ✔: Expected false to be "falsy";
+  ✔: Expected false to be "falsy";
+  Test: Passed;
+}
+
+Test Results {
+  Success: true;
+  Stats:  ✔ ✔ ✔;
+  Tests: 3;
+  Asserts: 7;
+  Passed: 3;
+  Failed: 0;
+  Skipped: 0;
+}
+
+/* << Bootcamp << */
+
+/*# sourceMappingURL=results.css.map */

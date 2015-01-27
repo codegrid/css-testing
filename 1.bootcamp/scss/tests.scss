@@ -1,0 +1,12 @@
+//テストしたいfunctionが書いてあるscss
+@import "lib/parseInt";
+@import "lib/calculateRem";
+//bootcampのライブラリ
+@import "../node_modules/bootcamp/dist/bootcamp";
+
+$bc-setting-verbose:  true;
+$bc-setting-warnings: true;
+
+@include runner-start;
+@import "specs/example";
+@include runner-end;

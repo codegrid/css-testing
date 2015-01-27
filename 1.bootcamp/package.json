@@ -1,0 +1,15 @@
+{
+  "name": "Sample1",
+  "version": "0.0.0",
+  "description": "this is sample1",
+  "main": "",
+  "author": "@geckotang",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "bootcamp": "~1.1.7",
+    "grunt-contrib-sass": "~0.8.1",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-init": "~0.3.2"
+  },
+  "dependencies": {}
+}

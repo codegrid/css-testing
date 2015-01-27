@@ -1,0 +1,18 @@
+@include describe("parseIntは") {
+  @include it("単位を取り除いて数値を返す") {
+    @include should( expect( parseInt(12px) ),  to( equal(12) )  );
+    @include should( expect( parseInt(1rem) ),  to( equal(1) )  );
+    @include should( expect( parseInt(100%) ),  to( equal(100) )  );
+    @include should( expect( parseInt(-12) ),   to( equal(-12) )  );
+  }
+}
+
+@include describe("calculateRemは") {
+  @include it("pxをremに変換する") {
+    @include should( expect( calculateRem(12px) ),  to( equal(1.2rem) )  );
+  }
+  @include it("px以外ならflaseを返す") {
+    @include should( expect( calculateRem(10) ),    to( be-falsy()));
+    @include should( expect( calculateRem(10em) ),  to( be-falsy()));
+  }
+}

@@ -1,0 +1,9 @@
+@function calculateRem($size) {
+  $_baseFontSize: 10;
+  @if unit($size) != "px" {
+    @return false;
+  } @else {
+    $_remSize: parseInt($size) / $_baseFontSize;
+    @return $_remSize * 1rem;
+  }
+}
