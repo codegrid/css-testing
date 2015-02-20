@@ -22,3 +22,6 @@ Gemfile.lock
 ### SASS ###
 ### SASS Ignores - "Sassy CSS" http://sass-lang.com/
 *.sass-cache
+
+### Bower ###
+bower_components
