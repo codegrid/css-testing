@@ -7,10 +7,16 @@
 
 ※BundlerはSassのバージョン管理のために入れています
 
+## Sassのインストール
+
+```sh
+$ bundle install
+```
+
 ## 必要なパッケージのインストール
 
 ```sh
-$npm install
+$ npm install
 ```
 
 ## Gruntのタスク
@@ -18,11 +24,11 @@ $npm install
 ### scssの変更があったらテストを実行する
 
 ```sh
-$grunt
+$ grunt
 ```
 
 ### 監視せずにテストのみを実行する
 
 ```sh
-$grunt test
+$ grunt test
 ```
