@@ -1,0 +1,10 @@
+{
+  "name": "3.backstop.js",
+  "version": "0.0.0",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {
+    "backstopjs": "~0.4.1"
+  },
+  "author": ""
+}
